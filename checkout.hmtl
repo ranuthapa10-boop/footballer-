@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Checkout</h1>
+  </nav>
+</header>
+
+<section class="checkout">
+
+  <h2>Order Summary</h2>
+
+  <div class="summary">
+    <p>Neymar Jersey - ₹2999</p>
+    <p>Football Studs - ₹4999</p>
+    <hr>
+    <h3>Total: ₹7998</h3>
+  </div>
+
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Address" required>
+
+    <button type="submit">Place Order</button>
+  </form>
+
+</section>
+
+</body>
+</html>
