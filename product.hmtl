@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Football Products</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="products">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974"
+         alt="Neymar Jersey">
+    <h2>Neymar PSG Jersey</h2>
+    <p>Premium football jersey.</p>
+    <p>₹2999</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1511886929837-354d827aae26"
+         alt="Football Studs">
+    <h2>Nike Football Studs</h2>
+    <p>Professional football boots.</p>
+    <p>₹4999</p>
+    <button>Add to Cart</button>
+  </div>
+
+</section>
+
+</body>
+</html>
